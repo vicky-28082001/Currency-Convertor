@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto+Slab:wght@700&display=swap');
+
+html,
+body{
+   font-family: 'Poppins', sans-serif;
+   background: linear-gradient(135deg, rgb(21, 54, 119), rgb(78, 8, 95));
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .container{
+    background-color:#ffff;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 400px;
+  }
+  
+  h1{
+    color:#0141a9;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+  }
+  .container .box{
+    width: 100%;
+    display: flex;
+  }
+  .box div{
+    width: 100%;
+  }
+  
+  select{
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color:#FFA770;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  
+  input{
+    width: 80%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background:rgb(237, 238, 240);;
+    color:black;
+    outline: none;
+    padding: 0 1em;
+  }
+  
+  .btn{
+    display:flex;
+    justify-content: center;
+  }
+  
+  button{
+    width: 50%;
+    height: 40px;
+    background-color:#ff5945;
+    color: #e6e6e6;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto Slab', serif;
+  
+  }
